@@ -1,0 +1,46 @@
+.home{
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subtitulo{
+     color:  #222;
+     margin-bottom: 5px;
+}
+
+.titulo{
+     color: #222;
+     font-size: 25pt;
+     margin-bottom: 5px;
+}
+
+.btn{
+    margin-top: 1rem;
+    border: none;
+    background-color: #dc143c;
+    padding: 10px 10px;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #dc143c;
+    font-size: 15pt;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.btn:hover{
+     background-color: transparent;
+     border: 1px solid #dc143c;
+     color: #dc143c;
+}
+.paragrafo{
+      display: flex;
+      flex-wrap: wrap;
+}
+
+
+@media (max-width: 1214px){
+      .home{
+          flex-wrap: wrap;
+      }
+}
